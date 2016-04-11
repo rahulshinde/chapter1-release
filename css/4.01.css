@@ -262,6 +262,12 @@ p {
 	box-shadow: 6px 0 7px rgba(0,0,0,0.3);
 }
 
+.box-shadow:hover {
+	-webkit-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+	-moz-box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+	box-shadow: -6px 0 7px rgba(0,0,0,0.3);
+}
+
 .external-link1 {
 	position: fixed;
 	top: 0;
