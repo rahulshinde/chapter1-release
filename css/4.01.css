@@ -341,6 +341,30 @@ p {
 }
 
 /* 	=============================
+		LINKS
+	============================= */
+
+	.pub-link {
+		position: fixed;
+		width: 120px;
+		height: 120px;
+		background-repeat: no-repeat;
+   	 	background-position: center;
+    	background-size: 100%;
+    	z-index: 100;
+	}
+
+	.pub-link {
+		bottom: 0;
+		right:80px;
+		background-image: url('../img/icons/pub.png');
+	}
+
+	.pub-link:hover {
+		background-image: url('../img/icons/pub-hov.png');
+	}
+
+/* 	=============================
 		TABLE Styling
 	============================= */
 
